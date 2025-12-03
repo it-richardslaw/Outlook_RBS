@@ -1,0 +1,53 @@
+# --------------------------------------
+# Node / Build Stuff (IGNORE)
+# --------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Do not upload local dev server stuff
+/.webpack/*
+/temp/*
+/coverage/*
+
+# Ignore all source React/JSX/TSX/JS/CSS except assets + dist
+/src/
+!src/assets/           # Keep only assets if inside src
+
+# If assets folder is in root:
+# !assets/
+
+# --------------------------------------
+# Output folders (KEEP)
+# --------------------------------------
+!dist/**               # Keep dist build output
+dist/**/*.map          # But ignore source maps if you prefer
+
+# --------------------------------------
+# Editor Files
+# --------------------------------------
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --------------------------------------
+# Environment / Secrets (IGNORE)
+# --------------------------------------
+.env
+.env.local
+.env.*.local
+
+# --------------------------------------
+# Keep manifest file
+# --------------------------------------
+!manifest.xml
+
+
+.babelrc
+.eslintrc.json
+.vscode
+babel.config.json
+src
+webpack.config.js
