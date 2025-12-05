@@ -101,7 +101,7 @@
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="RBS"/>
-          <bt:String id="TaskpaneButton.Label" DefaultValue="Show RBS Task Pane"/>
+          <bt:String id="TaskpaneButton.Label" DefaultValue="Add RBS Note"/>
         </bt:ShortStrings>
         <bt:LongStrings>
           <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Opens a Task Pane that enables users to create note."/>
