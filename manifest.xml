@@ -23,6 +23,7 @@
     <Form xsi:type="ItemRead">
       <DesktopSettings>
         <SourceLocation DefaultValue="https://localhost:3001/taskpane.html"/>
+        <!-- <SourceLocation DefaultValue="https://it-richardslaw.github.io/Outlook_RBS/dist/taskpane.html"/> -->
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -98,6 +99,7 @@
         </bt:Images>
         <bt:Urls>
           <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3001/taskpane.html"/>
+          <!-- <bt:Url id="Taskpane.Url" DefaultValue="https://it-richardslaw.github.io/Outlook_RBS/dist/taskpane.html"/> -->
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="GroupLabel" DefaultValue="RBS"/>
