@@ -51,3 +51,5 @@ Thumbs.db
 babel.config.json
 src
 webpack.config.js
+manifest.xml
+dist/manifest.xml
